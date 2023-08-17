@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For First Table */
+
+.table1{
+    border: 1px solid red;   
+    background-color: blueviolet;
+    width: 12%;
+}
+
+.table1, .table1 td, .table1 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+}
+.table1-h{
+    text-align: center;
+    width: 12%;
+}
+
+.table1_div{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.table1 tr:hover td, .table1 tr:hover th{
+    background-color: brown;
+}
+
+/* For Second Table */
+.table2{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 70%;
+    
+}
+
+.table2, .table2 th, .table2 td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.table2-h{
+    text-align: center;
+    width: 70%;
+}
+
+.table2_div{
+    /* width: 100%; */
+    margin: 15px 0 0 10px;
+}
+
+.break{
+    text-align: center;
+}
+
+.table2 td:hover, .table2 th:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+/* For Third Table */
+.table3{
+    border: 1px solid black;
+    background-color: orangered;
+    width: 75%;
+    
+}
+
+.table3, .table3 td, .table3 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+.table3-h{
+    text-align: center;
+    /* margin-top: 10px; */
+    width: 75%;
+}
+
+.table3_div{
+        margin: 10px 0 0 10px;
+}
+
+.table3 tbody tr:nth-child(odd){
+     background-color: black; 
+     color: white;
+} 
+
+.table3 tr:hover{
+   background-color: orchid;
+}
+
+.table3 tbody tr:nth-child(1):hover{
+    background-color: orchid; 
+    color: white;
+} 
+
+/* .table3 tbody td:hover{
+    background-color: blue;
+} */
+
